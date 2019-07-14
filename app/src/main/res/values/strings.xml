@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android_Kotlin_Job-Allocation_app</string>
+    <string name="taskhint">Enter the job</string>
+    <string name="assignedto">Assigned to</string>
+    <string name="assignedby">Assigned by</string>
+    <string name="image_desccription">icon of a job</string>
+    <string name="menu_title">Add Job</string>
+</resources>

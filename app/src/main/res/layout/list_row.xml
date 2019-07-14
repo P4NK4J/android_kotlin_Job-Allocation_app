@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+            android:padding="10dp"
+            app:layout_constraintVertical_bias="0.21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:cardBackgroundColor="@color/newcolor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+        <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        >
+            <ImageView
+                    android:contentDescription="@string/app_name"
+                    android:layout_width="82dp"
+                    android:layout_height="86dp" app:srcCompat="@mipmap/button" android:id="@+id/ImageViewId"
+                    android:layout_marginLeft="10dp"
+            />
+            <TextView
+                    android:text="Job Name"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/design_default_color_primary"
+                    android:textAlignment="center"
+                    android:layout_toRightOf="@+id/ImageViewId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ListJobName"
+            />
+            <TextView
+                    android:text="AssignedBy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/ListAssignedBy"
+                    android:layout_below="@id/ListJobName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ImageViewId"/>
+            <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/ListDate"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignBottom="@id/ImageViewId"
+                    android:text="Date: 13 July 2019"
+                    android:layout_marginRight="14dp"
+
+            />
+            <Button android:layout_width="25dp" android:layout_height="30dp"
+                    android:layout_alignStart="@id/ListDate"
+                    android:layout_alignBottom="@id/ListJobName"
+                    android:background="@android:drawable/ic_menu_edit"
+                    android:layout_marginTop="1dp"
+                    android:id="@+id/EditButton"
+
+                    android:layout_marginStart="29dp" android:layout_marginBottom="-4dp"/>
+            <Button android:layout_width="25dp" android:layout_height="30dp"
+                    android:layout_toRightOf="@id/EditButton"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignBottom="@id/ListJobName"
+                    android:background="@android:drawable/ic_delete"
+                    android:id="@+id/DeleteButton"
+                    android:layout_marginBottom="-2dp"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/ListAssignedTo"
+                      android:text="AssignedTo"
+                      android:layout_below="@id/ListAssignedBy"
+                      android:layout_toRightOf="@id/ImageViewId"
+                      android:layout_marginLeft="10dp"
+                      android:textStyle="italic"
+            />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
