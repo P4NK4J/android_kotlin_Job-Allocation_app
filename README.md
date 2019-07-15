@@ -6,6 +6,7 @@
 ## Overview
 
 Do you remember or forget sometimes to whom you allocated a task ??
+
 Have a look at Job Allocation app build with SQLite database and Kotlin support 
 
 It is an Job recording application with an offline database to store the jobs allocated to a person by any authority.The app can be used in coordinating the task distribution for a project and many more creative ways. A custom ListView holds the info: `Job`, `assigned to`, `assigned by`, `date of creation`.Any item in the ListView can be `edited`, `updated` and also `deleted` as well, any time by a `ClickListener` on the items of the ListView.
