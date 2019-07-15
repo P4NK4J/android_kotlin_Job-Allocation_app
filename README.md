@@ -3,11 +3,10 @@
 [![License](https://img.shields.io/github/license/ashish7zeph/android-kotlin-Chore-app.svg?style=for-the-badge)](https://github.com/P4NK4J/Android_Kotlin_Job-Allocation_app/blob/master/LICENSE)
 [![Language max %](https://img.shields.io/github/languages/top/ashish7zeph/android-kotlin-Chore-app.svg?colorB=orange&style=for-the-badge)](https://kotlinlang.org/)
 
-[![Build with android](https://forthebadge.com/images/badges/built-for-android.svg)](https://www.android.com/)
-
 ## Overview
 
-Built a job recording app with kotlin support using SQLite database
+Do you remember or forget sometimes to whom you allocated a task ??
+Have a look at Job Allocation app build with SQLite database and Kotlin support 
 
 It is an Job recording application with an offline database to store the jobs allocated to a person by any authority.The app can be used in coordinating the task distribution for a project and many more creative ways. A custom ListView holds the info: `Job`, `assigned to`, `assigned by`, `date of creation`.Any item in the ListView can be `edited`, `updated` and also `deleted` as well, any time by a `ClickListener` on the items of the ListView.
 
