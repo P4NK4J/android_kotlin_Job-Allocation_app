@@ -1,4 +1,4 @@
-# <img alt="App image" src="screenshots/joblogo.jpg" width="5%"> Job Allocation
+# <img alt="App image" src="Screenshots/joblogo.jpg" width="5%"> Job Allocation
 
 [![License](https://img.shields.io/github/license/ashish7zeph/android-kotlin-Chore-app.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-Chore-app/blob/master/LICENSE)
 [![Github contributors](https://img.shields.io/github/contributors/ashish7zeph/android-kotlin-Chore-app.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-Chore-app/graphs/contributors)
