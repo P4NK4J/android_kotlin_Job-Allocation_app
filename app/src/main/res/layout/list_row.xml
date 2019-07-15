@@ -40,7 +40,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/ListJobName"
-            />
+                    android:layout_alignParentStart="true" android:layout_marginStart="97dp"/>
             <TextView
                     android:text="AssignedBy"
                     android:layout_width="wrap_content"
@@ -57,23 +57,30 @@
                     android:layout_marginRight="14dp"
 
             />
-            <Button android:layout_width="25dp" android:layout_height="30dp"
-                    android:layout_alignStart="@id/ListDate"
-                    android:layout_alignBottom="@id/ListJobName"
+            <Button android:id="@+id/EditButton"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
                     android:background="@android:drawable/ic_menu_edit"
-                    android:layout_marginTop="1dp"
-                    android:id="@+id/EditButton"
+                    android:elevation="11dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="35dp" />
 
-                    android:layout_marginStart="29dp" android:layout_marginBottom="-4dp"/>
-            <Button android:layout_width="25dp" android:layout_height="30dp"
-                    android:layout_toRightOf="@id/EditButton"
-                    android:layout_marginLeft="20dp"
-                    android:layout_alignBottom="@id/ListJobName"
-                    android:background="@android:drawable/ic_delete"
+                    android:layout_marginBottom="-1dp"
+                    android:layout_marginLeft="40dp"
+            />
+            <Button
                     android:id="@+id/DeleteButton"
-                    android:layout_marginBottom="-2dp"/>
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="9dp"
 
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_delete"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+            <TextView
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
                       android:id="@+id/ListAssignedTo"
                       android:text="AssignedTo"
                       android:layout_below="@id/ListAssignedBy"
